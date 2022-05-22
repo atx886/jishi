@@ -125,9 +125,6 @@ def rw(phone):
         res = r.content.decode('utf-8')
         res = json.loads(res)
         print(res)
-        m += 1
-        if m >= 5:
-            break
     url6 = 'https://v1.kykykb.cn/task/receive?partner_id=xiaomi&platform_code=xiaomi&id=3&version=1.2.2&platform=android&timestamp=' + str(
         int(round(time.time() * 1000)))
     r = requests.get(url=url6, headers=header)
