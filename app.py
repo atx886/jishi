@@ -290,7 +290,7 @@ def ww(k):
 errs = []
 errph = []
 jn = max_a - 164
-t = jn
+t = 0
 jt = 0
 while t < max_a:
     try:
